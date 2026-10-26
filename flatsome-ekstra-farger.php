@@ -1,6 +1,7 @@
 <?php
 /**
  * Plugin Name: Flatsome ekstra farger
+ * Plugin URI: https://wordpress-plugins-docs.vercel.app/plugins/flatsome-ekstra-farger
  * Description: Legg til egne farger og knappestiler i Flatsome. Farger som CSS-variabler og fargeprøver, knapper som valg i UX Builder.
  * Version: 1.0.0
  * Author: Benjamin Pedersen
