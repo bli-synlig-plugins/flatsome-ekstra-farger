@@ -1,0 +1,25 @@
+/* Keep color helper swatches wrapping when many custom colors are registered. */
+.option-helpers {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 4px 2px;
+	max-width: 260px;
+	white-space: normal;
+	z-index: 30;
+}
+
+.option-helpers a {
+	margin: 0;
+	position: relative;
+	z-index: 1;
+}
+
+/* Wrapped swatches sit above the option above; lift the hovered row so they stay clickable. */
+ux-option:hover {
+	z-index: 40;
+}
+
+.option:not(.option-group):hover .option-helpers {
+	z-index: 50;
+}
